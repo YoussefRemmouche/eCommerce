@@ -1,0 +1,53 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.pics {
+  text-align: center;
+}
+.pics > img {
+  width: 350px;
+  height: 450px;
+}
+.desc {
+  padding-right: 20%;
+  text-align: left;
+}
+p {
+  text-align: left;
+}
+.sizeBtns > button {
+  border-width: 0;
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+.sizeBtns {
+  margin-bottom: 20px;
+}
+.colorBtns {
+  margin-bottom: 20px;
+}
+.colorBtns > button {
+  margin-right: 20px;
+  border-width: 0;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}
+.color1 {
+  background-color: red;
+}
+.color2 {
+  background-color: blue;
+}
+.color3 {
+  background-color: black;
+}
+.addCartButton {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border-width: 1px;
+  font-size: 15px;
+}

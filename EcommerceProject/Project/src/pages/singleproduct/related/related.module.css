@@ -1,0 +1,14 @@
+.rpheading {
+  text-align: center;
+  font-size: 40px;
+}
+.relArticles {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 4%;
+}
+.relButton {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px;
+}

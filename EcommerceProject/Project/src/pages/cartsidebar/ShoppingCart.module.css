@@ -1,0 +1,36 @@
+li {
+  list-style: none;
+  display: inline-flex;
+  gap: 50px;
+}
+ul {
+  padding: 0px;
+}
+.container {
+  float: right;
+}
+.header {
+  display: inline-flex;
+  gap: 150px;
+}
+.image1 {
+  align-self: center;
+}
+.border {
+  border: 1px solid #d9d9d9;
+  width: 250px;
+  margin-bottom: 20px;
+}
+.center {
+  align-self: center;
+}
+.subtotal {
+  margin-top: 200px;
+  display: flex;
+  gap: 50px;
+}
+.cartButtons {
+  border-radius: 12px;
+  margin-right: 20px;
+  padding: 5px 25px;
+}

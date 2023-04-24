@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  margin-left: 30%;
+  background-color: inherit;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: currentColor;
+}
+.menu_1 {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.menu_2 {
+  display: flex;
+  margin-left: 15%;
+  gap: 30px;
+  list-style: none;
+}

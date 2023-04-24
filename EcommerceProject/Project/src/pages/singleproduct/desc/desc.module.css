@@ -1,0 +1,27 @@
+.nav {
+  padding-top: 3%;
+}
+.nav > ul {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: center;
+  gap: 100px;
+}
+.navul > button {
+  border-style: none;
+  background-color: transparent;
+  height: 40px;
+  font-size: 20px;
+}
+.desc {
+  padding: 5%;
+}
+.pics {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+}
+.pics > img {
+  width: 400px;
+  height: 500px;
+}

@@ -1,0 +1,32 @@
+.heading,
+.heading > p {
+  text-align: center;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.blog1 > img,
+.blog2 > img,
+.blog3 > img {
+  width: 370px;
+  height: 400px;
+  text-align: center;
+}
+.blog1 > p,
+.blog2 > p,
+.blog3 > p {
+  text-align: center;
+}
+.blog1,
+.blog2,
+.blog3 {
+  text-align: center;
+}
+.obButton {
+  margin: 0 0 20px;
+}
+.spans {
+  display: flex;
+  justify-content: center;
+}

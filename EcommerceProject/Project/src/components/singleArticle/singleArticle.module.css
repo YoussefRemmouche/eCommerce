@@ -1,0 +1,18 @@
+.articleContainer {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.articleContainer > img {
+  width: 300px;
+  height: 350px;
+}
+.articleContainer > p {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.articleContainer > h4 {
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 20px;
+}

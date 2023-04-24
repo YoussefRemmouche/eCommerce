@@ -1,0 +1,17 @@
+.banner {
+  background-image: url("bannerbk.jpg");
+  /* background-size: cover; */
+  height: 300px;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.banner > h2 {
+  font-size: 50px;
+  margin-top: 0px;
+}
+.banner > img {
+  width: 90px;
+  height: 90px;
+}

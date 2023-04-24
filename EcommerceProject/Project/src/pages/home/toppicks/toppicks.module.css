@@ -1,0 +1,15 @@
+.heading,
+.heading > p {
+  text-align: center;
+}
+
+.prods {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+}
+.tpButton {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 20px;
+}

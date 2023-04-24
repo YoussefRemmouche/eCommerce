@@ -1,0 +1,28 @@
+.container1 {
+  background-color: burlywood;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: burlywood;
+}
+.leftside {
+  position: relative;
+  top: 80px;
+}
+.rightside > img {
+  width: 500px;
+  height: 600px;
+  padding-left: 4%;
+}
+.leftside > h1 {
+  max-width: 400px;
+  text-align: left;
+  font-size: 60px;
+  float: right;
+}
+.button {
+  position: relative;
+  top: 250px;
+  left: 300px;
+}

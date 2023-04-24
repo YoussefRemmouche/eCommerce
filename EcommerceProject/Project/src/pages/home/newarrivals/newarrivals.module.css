@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  background-color: #fff9e5;
+}
+.left > img {
+  height: 700px;
+  width: 800px;
+}
+.right {
+  display: grid;
+  grid-template-rows: auto;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+.right > h5 {
+  font-size: larger;
+  margin: 0;
+}
+.right > h2 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.orderBtn {
+  background-color: transparent;
+  width: 200px;
+  height: 50px;
+  border-width: 1px;
+  font-size: 15px;
+}

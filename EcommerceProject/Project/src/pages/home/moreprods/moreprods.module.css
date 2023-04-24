@@ -1,0 +1,23 @@
+.container {
+  background-color: #faf4f4;
+  padding: 2%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.pics {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+}
+.right > img {
+  width: 500px;
+}
+.left,
+.right {
+  padding-left: 10%;
+}
+.left > h3,
+.right > h3 {
+  font-size: 30px;
+  margin: 10px 0px 20px;
+}
